@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Is Following</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_is">Is</string>
+    <string name="label_following">following</string>
+    <string name="label_question_mark">\?</string>
+    <string name="hint_twitter_name_1">Enter a twitter name</string>
+    <string name="hint_twitter_name_2">Another twitter name</string>
+    <string name="button_title_check">Check</string>
+    <string name="label_at">\@</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    
+</resources>
