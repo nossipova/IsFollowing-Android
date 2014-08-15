@@ -28,7 +28,7 @@ class TwitterCommunicator extends AsyncTask<String, Void, String> {
     }
 
     def isNetworkAvailable(Context it) {
-        val networkInfo = (getSystemService(Context::CONNECTIVITY_SERVICE) as ConnectivityManager).activeNetworkInfo
+        val networkInfo = (getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager).activeNetworkInfo
         if (networkInfo != null && networkInfo.connected) { true } else { false }
     }
 
